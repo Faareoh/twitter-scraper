@@ -12,6 +12,7 @@
   "types": "./dist/types/index.d.ts",
   "exports": {
     ".": {
+      "bun": "./src/_module.ts",
       "types": "./dist/types/index.d.ts",
       "node": {
         "import": "./dist/node/esm/index.mjs",
